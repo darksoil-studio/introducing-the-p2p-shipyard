@@ -1,0 +1,28 @@
+{
+  "name": "welcome",
+  "description": "Webcomponent slides-sl following open-wc recommendations",
+  "author": "guillem.cordoba@gmail.com",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "format": "prettier index.html",
+    "build": "rimraf dist && vite build",
+    "start": "vite --open"
+  },
+  "dependencies": {
+    "@msgpack/msgpack": "3.0.0-beta2",
+    "@shoelace-style/shoelace": "^2.19.1",
+    "password-protected-content": "^0.1.0",
+    "reveal.js": "=4.3.1",
+    "reveal.js-animate-fragments": "^0.1.5",
+    "reveal.js-mermaid-plugin": "^2.3.0",
+    "reveal.js-script-fragment": "^0.1.0",
+    "typed-js": "^0.2.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.7",
+    "deepmerge": "^4.3.1",
+    "rimraf": "^3.0.2",
+    "vite": "^4.5.9"
+  }
+}
